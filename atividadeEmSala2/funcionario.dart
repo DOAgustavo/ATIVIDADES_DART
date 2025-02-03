@@ -12,7 +12,7 @@ class Funcionario{
   set idade(int idade) => _idade = idade;
 
   double get salario => _salario;
-  set salario(double salario) => salario = _salario;
+  set salario(double salario) => _salario = salario;
 
   void mostrarDetalhes(){
     print("Nome: $nome");

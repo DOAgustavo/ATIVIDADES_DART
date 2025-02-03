@@ -6,7 +6,7 @@ void main(){
   Funcionario f1 = Funcionario("giovanni", 22, 2200.50);
   f1.mostrarDetalhes();
 
-  Funcionario f2 = Gerente("Ana", 24, 2500.50, "Rh");
+  Funcionario f2 = Gerente("Ana", 56, 1000, "Rh");
   f2.mostrarDetalhes();
 
  if (f2 is Gerente) {

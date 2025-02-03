@@ -6,10 +6,14 @@
     Gerente(String nome, int idade, double salario, this._departamento) : super (nome, idade, salario);
 
     String get departamento => _departamento;
-    set departamento(String departamento) => departamento  = _departamento;
-
+    
     @override
     void mostrarDetalhes(){
+
+      if(idade >= 50 ){
+          salario = salario + (salario * 0.10);
+        }
+
         print("Nome: $nome");
         print("Idade: $idade");
         print("Salário: $salario");
